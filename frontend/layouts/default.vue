@@ -14,7 +14,7 @@
                         <NuxtLink to="/products">Products</NuxtLink>
                     </li>
                     <li>
-                        <NuxtLink to="/products/1">Products/1</NuxtLink>
+                        <NuxtLink to="/products/1" class="table">Products/1</NuxtLink>
                     </li>
                 </ul>
             </nav>
