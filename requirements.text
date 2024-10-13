@@ -1,0 +1,86 @@
+@ -0,0 +1,85 @@
+User
+    Employees
+
+Product
+Inventory
+
+Purchase
+    Vendor
+
+Asset
+Asset Category
+Asset Inventory
+Asset Inventory Transfer
+
+Projects
+    supervisor_id
+    work_order
+    start date
+    end date
+    completed date
+    remarks
+    documents upload
+    status -> pending,started,complted,hold,closed
+        # select template for predefined templates
+    tasks [
+        task_id
+        forman_id
+        start_date
+        due_date
+        duration
+        priority
+        tags
+        status -> pending,in progress,hold,completed
+        created_by
+        updated_by
+    ]
+    notes [
+        note,
+    ]
+    issues [
+        issues,
+    ]
+    materials [
+        date,
+        quantity
+        remarks
+    ]
+    expense [
+        date,
+        category
+        amount
+        paid_by
+        remarks
+    ]
+    documents [
+        file,
+        created_by
+        updated_by
+    ]
+
+
+Template For Tasks
+
+
+Reports
+    Dashbaord
+        Projests , Status
+
+    Tasks Report
+        task name , employee , start date , due_date,  status
+
+    Employee
+        name assigned no, pending no,completed no
+
+    Expense
+        Category,total
+
+    Audit Report
+
+
+pending
+in progress
+on hold
+completed
+closed
